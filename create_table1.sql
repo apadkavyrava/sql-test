@@ -1,0 +1,9 @@
+CREATE TABLE TABLE_1 (
+	Memberld INT NOT NULL PRIMARY KEY,
+	Name NVARCHAR2(100),
+	Address NVARCHAR2(100),
+	Mesto NVARCHAR2(100),
+	Sex VARCHAR(1) CHECK (Sex IN ('M','W')),
+	BirthDate DATE
+);
+	

@@ -1,0 +1,6 @@
+CREATE TABLE TABLE_2 (
+	Memberld INT,
+	"Date" DATE,
+	Amount REAL,
+	CONSTRAINT memld FOREIGN KEY(Memberld) REFERENCES TABLE_1
+);
